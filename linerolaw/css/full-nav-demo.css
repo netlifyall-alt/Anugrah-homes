@@ -1,0 +1,116 @@
+/*------------------------------------------------------------------
+[full-nav-demo Stylesheet]
+
+Project:    Lawfirm - Onepage Html Responsive Template
+Version:    1.1
+Last change:    15/05/2017 
+Primary use:    Lawfirm - Onepage Html Responsive Template
+-------------------------------------------------------------------*/
+
+@media (min-width: 1024px) {}
+
+.full-nav nav.divinnav.navbar-full .navbar-collapse .wrap-full-menu {
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.full-nav nav.navbar ul.nav li.scroll.active>a,
+.full-nav nav.navbar ul.nav>li>a:hover {
+    color: #fff !important;
+    background-color: #769122 !important;
+}
+
+.full-nav .vertical-heading span {
+    color: #769122;
+}
+
+.full-nav .accordionstyle_1.accordion_2 .panel .panel-heading a,
+.full-nav .accordionstyle_1.accordion_2 .panel .panel-heading a:hover {
+    background-color: #769122;
+}
+
+.full-nav .icon_box3_simple .simple_sub_circle {
+    background: #000;
+}
+
+.full-nav #about hr {
+    background: #769122;
+}
+
+.full-nav .icon_box3_simple:hover {
+    background: #d5d4d6;
+    color: #000;
+}
+
+.full-nav .icon_box3_simple:hover h4 {
+    color: #000;
+}
+
+.full-nav .icon_box3_simple:hover .simple_sub_circle {
+    background: #000;
+}
+
+.full-nav .portfolioTwo .ImageWrapper .ImageOverlay {
+    background: none repeat scroll 0 0 rgba(54, 158, 70, 0.9);
+}
+
+.full-nav .testimonialEight .item .name {
+    color: #769122;
+}
+
+.full-nav .testimonialEight .carousel .carousel-indicators .active {
+    background-color: #769122 !important;
+}
+
+.full-nav .dart-headingstyle-four h5 {
+    color: #769122;
+}
+
+.full-nav .fullWidthNine .feature-wrapper h5 {
+    color: #769122;
+}
+
+.full-nav .fullWidthNine .feature-wrapper:hover i {
+    color: #769122;
+}
+
+.full-nav .tabSix .nav-tabs>li.active>a,
+.full-nav .tabSix .nav-tabs>li.active>a:focus,
+.full-nav .tabSix .nav-tabs>li.active>a:hover,
+.full-nav .tabSix .nav-tabs>li>a:hover {
+    border-color: #769122;
+}
+
+.full-nav .button-default {
+    background: #769122;
+}
+
+.full-nav .counter-section i {
+    color: #769122;
+}
+
+.full-nav .packagestyle_one:hover {
+    background: #769122;
+}
+
+.full-nav .btn-link {
+    color: #769122;
+}
+
+
+@media (max-width: 992px) {
+    .full-nav nav.navbar.divinnav .navbar-nav>li>a {
+        border-bottom: none;
+        border-top: none;
+        margin-bottom: 0px;
+        width: auto;
+        font-size: 16px;
+    }
+}
+
+.full-nav nav.navbar.divinnav .navbar-toggle {
+    background-color: #769122;
+}
+
+.full-nav nav.navbar.no-background ul.nav>li>a:hover {
+    background-color: #769122 !important;
+}
