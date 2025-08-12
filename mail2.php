@@ -1,58 +1,33 @@
 <?php
+if (isset($_POST['submit'])) {
+    $name  = $_POST['name'] ?? '';
+    $email = $_POST['email'] ?? '';
+    $phone = $_POST['phone'] ?? '';
+    $sub   = $_POST['sub'] ?? '';
+    $msg   = $_POST['msg'] ?? '';
 
-if (isset($_POST['submit']))
+    $to = "hrcustomerdata@gmail.com";
+    $subject = "New Enquiry from Anugrah Homes Website";
 
-{
+    $message = "Name: $name\nEmail: $email\nPhone: $phone\nSubject: $sub\nMessage:\n$msg";
 
-    $name = $_POST['name'];
+    $headers = "From: Anugrah Homes <no-reply@anugrahhomes.com>\r\n";
+    $headers .= "Reply-To: $email\r\n";
+    $headers .= "Content-Type: text/plain; charset=UTF-8\r\n";
 
-    $email= $_POST['email'];
+    if (!empty($email)) {
+        $success = mail($to, $subject, $message, $headers);
 
-    $phone= $_POST['phone'];
-
-    $sub= $_POST['sub'];
-
-    $msg = $_POST['msg'];
-
-    $to = "info@anugrahhomes.com";
-
-    $subject = "Enquiry from :: anugrahhomes.com";
-
-    $txt ="Name:". $name . "\r\nEmail: " . $email. "\r\nPhone: " . $phone.  "\r\nSubject: " . $sub. "\r\nMessage: " . $msg;
-
-    $headers = "From: $email" . "\r\n" . "CC: info@anugrahhomes.com";
-
-    if($email!=NULL){
-
-        mail($to,$subject,$txt,$headers);
-
-        header("Location:thank.php");
-
-        exit;
-
+        if ($success) {
+            echo "✅ Email sent successfully.";
+        } else {
+            echo "❌ Email sending failed.";
+            // Extra debugging
+            error_reporting(E_ALL);
+            ini_set('display_errors', 1);
+        }
+    } else {
+        echo "❌ Email field was empty.";
     }
-
-    else
-
-    {
-
-        echo "
-
-            <script LANGUAGE='JavaScript'>
-
-            window.alert('something is wrong');
-
-            window.location.href='index.php';
-
-            </script>
-
-        ";
-
-    }
-
 }
-
-
-
 ?>
-

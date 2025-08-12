@@ -1,46 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Thank You - Anugrah Homes</title>
 
-    <head>
-    </head>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=AW-11098365219"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <!-- Google Ads Conversion Tracking -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11098365219"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'AW-11098365219');
+    gtag('event', 'conversion', {'send_to': 'AW-11098365219/jonnCNTJ45QYEKO6jqwp'});
+  </script>
 
-  gtag('config', 'AW-11098365219');
-</script>
-<!-- Event snippet for Anugrahhomes_Website_conversion_29-03-2023 conversion page -->
-<script>
-  gtag('event', 'conversion', {'send_to': 'AW-11098365219/jonnCNTJ45QYEKO6jqwp'});
-</script>
-
-<div style="text-align:center;margin-top: 11%;">
- <h1>Thank you!<br>For Your Interest.</h1> 
-
-<p>Your submission has been received.</p>
-
-<span id="timer"></span>
-</div>
-<script type="text/javascript">
-var count = 5;
-var redirect = "https://www.anugrahhomes.com";
-function countDown(){
-    var timer = document.getElementById("timer");
-    if(count > 0){
-        count--;
-        timer.innerHTML = "This page will redirect in "+count+" seconds.";
-        setTimeout("countDown()", 1000);
-}else{
-        window.location.href = redirect;
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+      background: #f9f9f9;
+      color: #333;
     }
-}
+    .thank-container {
+      padding-top: 12%;
+    }
+    h1 {
+      color: #2c3e50;
+      font-size: 2.2rem;
+    }
+    p, #timer {
+      font-size: 1.1rem;
+      margin-top: 10px;
+    }
+  </style>
+</head>
 
-countDown();
+<body>
+  <div class="thank-container">
+    <h1>Thank You!<br>For Your Interest.</h1>
+    <p>Your submission has been received.</p>
+    <span id="timer"></span>
+  </div>
 
-</script>
+  <script>
+    let count = 5;
+    const redirect = "https://www.anugrahhomes.com";
+    const timer = document.getElementById("timer");
 
+    function countDown() {
+      if (count > 0) {
+        timer.innerHTML = "This page will redirect in " + count + " seconds.";
+        count--;
+        setTimeout(countDown, 1000);
+      } else {
+        window.location.href = redirect;
+      }
+    }
 
+    countDown();
+  </script>
+</body>
 </html>

@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 
 <html lang="en">
@@ -71,91 +70,89 @@
 
   <!--<script src="https://kit.fontawesome.com/fa9b59c9b0.js"></script>-->
 
-  
+
 
   <!-- Google tag (gtag.js) -->
 
-<script async src="https://www.googletagmanager.com/gtag/js?id=AW-11337935120"></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11337935120"></script>
 
-<script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
 
-  window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
 
-  function gtag(){dataLayer.push(arguments);}
-
-  gtag('js', new Date());
-
-
-
-  gtag('config', 'AW-11337935120');
-
-</script>
+    gtag('js', new Date());
 
 
 
-  
+    gtag('config', 'AW-11337935120');
+  </script>
+
+
+
+
 
   <!-- Event snippet for website conversion form conversion page -->
 
-    <script>
-
-      gtag('event', 'conversion', {'send_to': 'AW-11337935120/NaxpCICqzuIYEJDSrJ4q'});
-
-    </script>
-
-    
-
-<!-- Event snippet for email conversion page -->
-
-<script>
-
-  gtag('event', 'conversion', {'send_to': 'AW-11337935120/iftVCL6l0uIYEJDSrJ4q'});
-
-</script>
+  <script>
+    gtag('event', 'conversion', {
+      'send_to': 'AW-11337935120/NaxpCICqzuIYEJDSrJ4q'
+    });
+  </script>
 
 
 
-<!-- Event snippet for phone conversion page -->
+  <!-- Event snippet for email conversion page -->
 
-<script>
+  <script>
+    gtag('event', 'conversion', {
+      'send_to': 'AW-11337935120/iftVCL6l0uIYEJDSrJ4q'
+    });
+  </script>
 
-  gtag('event', 'conversion', {'send_to': 'AW-11337935120/9j3oCKu20uIYEJDSrJ4q'});
-
-</script>
 
 
+  <!-- Event snippet for phone conversion page -->
 
-<!-- Event snippet for whatsapp conversion page
+  <script>
+    gtag('event', 'conversion', {
+      'send_to': 'AW-11337935120/9j3oCKu20uIYEJDSrJ4q'
+    });
+  </script>
+
+
+
+  <!-- Event snippet for whatsapp conversion page
 
 In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
 
-<script>
+  <script>
+    function gtag_report_conversion(url) {
 
-function gtag_report_conversion(url) {
+      var callback = function() {
 
-  var callback = function () {
+        if (typeof(url) != 'undefined') {
 
-    if (typeof(url) != 'undefined') {
+          window.location = url;
 
-      window.location = url;
+        }
+
+      };
+
+      gtag('event', 'conversion', {
+
+        'send_to': 'AW-11337935120/t-G4CL3nzuIYEJDSrJ4q',
+
+        'event_callback': callback
+
+      });
+
+      return false;
 
     }
-
-  };
-
-  gtag('event', 'conversion', {
-
-      'send_to': 'AW-11337935120/t-G4CL3nzuIYEJDSrJ4q',
-
-      'event_callback': callback
-
-  });
-
-  return false;
-
-}
-
-</script>
+  </script>
 
 
 
@@ -164,7 +161,6 @@ function gtag_report_conversion(url) {
 </head>
 
 <style>
-
   #service h4 {
 
     color: #1C2833;
@@ -228,7 +224,6 @@ function gtag_report_conversion(url) {
     padding: 10px;
 
   }
-
 </style>
 
 <div class="call2">
@@ -246,6 +241,10 @@ function gtag_report_conversion(url) {
 
 
 <body class="full-nav">
+
+
+  
+
 
   <!-- Navigation -->
 
@@ -329,33 +328,38 @@ function gtag_report_conversion(url) {
 
       <div class="carousel-inner" role="listbox">
 
-        <div class="item active">
+        <div class="item active ">
 
           <img src="linerolaw/images/slide-01.jpg">
 
         </div>
-
         <div class="item">
 
-          <img src="linerolaw/images/slide-2.jpg">
+          <img src="linerolaw/images/slide-001.jpg">
 
         </div>
 
         <div class="item">
 
-          <img src="linerolaw/images/slide-03.jpg">
+          <img src="linerolaw/images/slide-02.jpeg">
 
         </div>
 
         <div class="item">
 
-          <img src="linerolaw/images/slide-4.jpg">
+          <img src="linerolaw/images/slide-3.jpeg">
 
         </div>
 
         <div class="item">
 
-          <img src="linerolaw/images/slide-1.jpg">
+          <img src="linerolaw/images/slide-4.jpeg">
+
+        </div>
+
+        <div class="item">
+
+          <img src="linerolaw/images/slide-001.jpeg">
 
         </div>
 
@@ -1393,6 +1397,10 @@ function gtag_report_conversion(url) {
 
       </div>
 
+
+
+
+
       <div class="row">
 
         <div class="col-md-12 text-center">
@@ -1425,13 +1433,15 @@ function gtag_report_conversion(url) {
 
                   </div> -->
 
+
+
                   <div class="w-30">
 
                     <div class="img-wrapper">
 
-                      <a href="linerolaw\images\galimg-1.jpg" alt="Anugrah Homes ." title="Anugrah Homes ."><img
+                      <a href="linerolaw\images\gailimg-1.jpeg" alt="Anugrah Homes ." title="Anugrah Homes ."><img
 
-                          src="linerolaw\images\galimg-1.jpg" alt="Anugrah Homes ." title="Anugrah Homes ."
+                          src="linerolaw\images\gailimg-1.jpeg" alt="Anugrah Homes ." title="Anugrah Homes ."
 
                           class="img-responsive"></a>
 
@@ -1449,29 +1459,10 @@ function gtag_report_conversion(url) {
 
                     <div class="img-wrapper">
 
-                      <a href="linerolaw\images\galimg-2.jpg" alt="Anugrah Homes ." title="Anugrah Homes ."><img
+                      <a href="linerolaw\images\galimg-2.jpeg" alt="Anugrah Homes ." title="Anugrah Homes .">
+                        <img
 
-                          src="linerolaw\images\galimg-2.jpg" alt="Anugrah Homes ." title="Anugrah Homes ."
-
-                          class="img-responsive"></a>
-
-                      <div class="img-overlay">
-
-                        <i class="fa fa-plus-circle" aria-hidden="true"></i>
-
-                      </div>
-
-                    </div>
-
-                  </div>
-
-                  <div class="w-30">
-
-                    <div class="img-wrapper">
-
-                      <a href="linerolaw\images\galimg-3.jpg" alt="Anugrah Homes ." title="Anugrah Homes ."><img
-
-                          src="linerolaw\images\galimg-3.jpg" alt="Anugrah Homes ." title="Anugrah Homes ."
+                          src="linerolaw\images\galimg-2.jpeg" alt="Anugrah Homes ." title="Anugrah Homes ."
 
                           class="img-responsive"></a>
 
@@ -1489,9 +1480,29 @@ function gtag_report_conversion(url) {
 
                     <div class="img-wrapper">
 
-                      <a href="linerolaw\images\galimg-4.jpg" alt="Anugrah Homes ." title="Anugrah Homes ."><img
+                      <a href="linerolaw\images\galimg-3.jpeg" alt="Anugrah Homes ." title="Anugrah Homes ."><img
 
-                          src="linerolaw\images\galimg-4.jpg" alt="Anugrah Homes ." title="Anugrah Homes ."
+                          src="linerolaw\images\galimg-3.jpeg" alt="Anugrah Homes ." title="Anugrah Homes ."
+
+                          class="img-responsive"></a>
+
+                      <div class="img-overlay">
+
+                        <i class="fa fa-plus-circle" aria-hidden="true"></i>
+
+                      </div>
+
+                    </div>
+
+                  </div>
+
+                  <div class="w-30">
+
+                    <div class="img-wrapper">
+
+                      <a href="linerolaw\images\galimg-4.jpeg" alt="Anugrah Homes ." title="Anugrah Homes ."><img
+
+                          src="linerolaw\images\galimg-4.jpeg" alt="Anugrah Homes ." title="Anugrah Homes ."
 
                           class="img-responsive"></a>
 
@@ -1847,67 +1858,47 @@ function gtag_report_conversion(url) {
 
             <!-- Start the form spanel -->
 
-            <form class="dart-form-8" action="mail2.php" id="get-form" name="contact" method="post">
+            <form class="dart-form-8"
+              action="https://formspree.io/f/xrbloewk"
+              method="POST"
+              id="get-form"
+              name="contact">
+
 
               <div class="form-inline row">
-
                 <div class="form-group col-sm-6">
-
-                  <input class="form-control" type="name" name="name" required placeholder="Your Name">
-
+                  <input class="form-control" type="text" name="name" required placeholder="Your Name">
                 </div>
-
                 <div class="form-group col-sm-6">
-
                   <input class="form-control" type="email" name="email" required placeholder="Email Address">
-
                 </div>
-
               </div>
 
               <div class="form-inline row">
-
                 <div class="form-group col-sm-6">
-
-                  <input class="form-control" type="text" name="phone" pattern="[0-9]{10}" required
-
-                    placeholder="Phone Number">
-
+                  <input class="form-control" type="text" name="phone" pattern="[0-9]{10}" required placeholder="Phone Number">
                 </div>
-
                 <div class="form-group col-sm-6">
-
-                  <input class="form-control" type="subject" name="sub" required placeholder="Subject">
-
+                  <input class="form-control" type="text" name="sub" required placeholder="Subject">
                 </div>
-
               </div>
 
               <div class="row">
-
                 <div class="form-group col-lg-12 col-xs-12">
-
-                  <textarea class="form-control form-control-multiline" rows="7" required name="msg"
-
-                    placeholder="Message"></textarea>
-
+                  <textarea class="form-control form-control-multiline" rows="7" required name="msg" placeholder="Message"></textarea>
                 </div>
-
               </div>
 
-              <!--<div class="row">
+              <!-- ✅ Hidden settings -->
+              <input type="hidden" name="_subject" value="New Enquiry from Anugrah Homes">
+              <input type="hidden" name="_captcha" value="false">
+              <input type="hidden" name="_next" value="https://www.anugrahhomes.com/thank.php">
 
-                           <div class="g-recaptcha" data-sitekey="6Le6oA8oAAAAAFYuNcv3jspA7A1R-xGrA2KJlPoF" style="margin-left:18px;" ></div><br/>
-
-                           </div> -->
-
-              <div style="padding:0 15px ;">
-
-                <button type="submit" name="submit" class="btn button-default">Submit Now</button>
-
+              <div style="padding:0 15px;">
+                <button type="submit" class="btn button-default">Submit Now</button>
               </div>
-
             </form>
+
 
           </div>
 
@@ -1998,29 +1989,33 @@ function gtag_report_conversion(url) {
     <!--<img src="linerolaw/images/approved.webp" class="approved">-->
 
     <script type="text/javascript">
+      window.addEventListener('load', function() {
 
-      window.addEventListener('load', function () {
+        jQuery('body').on('click', '[href*="tel:"]', function() {
 
-        jQuery('body').on('click', '[href*="tel:"]', function () {
-
-          gtag('event', 'conversion', { 'send_to': 'AW-11098365219/y_ZUCPTj45QYEKO6jqwp' });
-
-        })
-
-        jQuery('body').on('click', '[href*="mailto:"]', function () {
-
-          gtag('event', 'conversion', { 'send_to': 'AW-11098365219/KPXpCM_765QYEKO6jqwp' });
+          gtag('event', 'conversion', {
+            'send_to': 'AW-11098365219/y_ZUCPTj45QYEKO6jqwp'
+          });
 
         })
 
-        jQuery('body').on('click', '[href*="whatsapp"]', function () {
+        jQuery('body').on('click', '[href*="mailto:"]', function() {
 
-          gtag('event', 'conversion', { 'send_to': 'AW-11098365219/T4ZyCI_065QYEKO6jqwp' });
+          gtag('event', 'conversion', {
+            'send_to': 'AW-11098365219/KPXpCM_765QYEKO6jqwp'
+          });
+
+        })
+
+        jQuery('body').on('click', '[href*="whatsapp"]', function() {
+
+          gtag('event', 'conversion', {
+            'send_to': 'AW-11098365219/T4ZyCI_065QYEKO6jqwp'
+          });
 
         })
 
       })
-
     </script>
 
   </footer>
@@ -2049,11 +2044,11 @@ function gtag_report_conversion(url) {
 
   </m-footer>
 
-  
 
-  
 
-  
+
+
+
 
   <!-- Footer End Here -->
 
@@ -2090,7 +2085,6 @@ function gtag_report_conversion(url) {
   <script src="linerolaw/js/custom.js"></script>
 
   <script type="text/javascript">
-
     var slider = new MasterSlider();
 
     slider.control('bullets');
@@ -2114,12 +2108,10 @@ function gtag_report_conversion(url) {
       autoplay: true
 
     });
-
   </script>
 
   <script type="text/javascript">
-
-    $(function () {
+    $(function() {
 
       $('.gallery-slideshow').slideshow({
 
@@ -2128,7 +2120,6 @@ function gtag_report_conversion(url) {
       });
 
     });
-
   </script>
 
   <!-- Template JavaScript -->
