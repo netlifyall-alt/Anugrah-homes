@@ -367,17 +367,8 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
 
         </div>
 
-        <div class="item">
-
-          <img src="linerolaw/images/slide-02.jpg">
-
-        </div>
-
-        <div class="item">
-
-          <img src="linerolaw/images/slide-3.jpg">
-
-        </div>
+       
+        
 
        
 
