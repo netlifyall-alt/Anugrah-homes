@@ -896,7 +896,7 @@
 
       <form action="site_visit_mail.php" method="post">
 
-        <div class="banner" style="background:url(linerolaw/images/slide-1.jpg);width:100%;background-size: cover;background-position: top;">
+        <div class="banner" style="background:url(linerolaw/images/slide-1.jpeg);width:100%;background-size: cover;background-position: top;">
 
           <h1> Anugrah Homes Visit Form</h1>
 

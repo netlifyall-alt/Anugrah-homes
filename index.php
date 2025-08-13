@@ -71,6 +71,10 @@
   <!--<script src="https://kit.fontawesome.com/fa9b59c9b0.js"></script>-->
 
 
+<!-- Tailwind CSS -->
+ <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+
+
 
   <!-- Google tag (gtag.js) -->
 
@@ -375,11 +379,7 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
 
         </div>
 
-        <div class="item">
-
-          <img src="linerolaw/images/slide-04.jpg">
-
-        </div>
+       
 
       </div>
 
@@ -433,9 +433,9 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
 
         <div class="col-sm-6">
 
-          <img class="img-responsive about-plot-img" src="linerolaw\images\s4.jpg" alt="Anugrah Homes ."
+          <img class="img-responsive about-plot-img" src="linerolaw\images\galimg-2.jpeg" alt="Anugrah Homes ."
 
-            title="Anugrah Homes ." width="100%">
+            title="Anugrah Homes ." width="100%" style="background-size: cover;">
 
         </div>
 
@@ -521,7 +521,7 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
 
   </section>
 
-
+<!-- Project Features -->
 
   <section class="whyus-wrap" id="why-jewar">
 
@@ -653,17 +653,14 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
 
     </p>
 
-    <div class="video-respoinsive">
-
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/xGGBlkhrX3I" title="YouTube video player"
-
-        frameborder="0"
-
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-
-        allowfullscreen></iframe>
-
-    </div>
+    <div class="video-responsive">
+    <video controls>
+        <source src="./linerolaw/videos/video-1.mp4" type="video/mp4">
+       
+       
+    </video>
+    
+</div>
 
     <p class="pt-2 text-center">
 
